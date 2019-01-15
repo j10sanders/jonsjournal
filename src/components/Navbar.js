@@ -1,7 +1,12 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import github from '../img/github-icon.svg'
-import logo from '../img/logo.svg'
+import styled from 'styled-components'
+
+const Logo = styled.svg`
+  bottom: -7px;
+  position: relative; 
+`
 
 const Navbar = class extends React.Component {
 
@@ -35,7 +40,9 @@ const Navbar = class extends React.Component {
     <div className="container">
       <div className="navbar-brand">
         <Link to="/" className="navbar-item" title="Logo">
-          <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
+          <Logo height="30" width="200">
+            <text x="0" y="15" fill="#ff6600">JON'S JOURNAL</text>
+          </Logo>
         </Link>
         {/* Hamburger menu */}
         <div className="navbar-burger burger" data-target="navMenu">
@@ -62,7 +69,7 @@ const Navbar = class extends React.Component {
       <div className="navbar-end has-text-centered">
         <a
           className="navbar-item"
-          href="https://github.com/AustinGreen/gatsby-netlify-cms-boilerplate"
+          href="https://github.com/j10sanders"
           target="_blank"
           rel="noopener noreferrer"
         >
