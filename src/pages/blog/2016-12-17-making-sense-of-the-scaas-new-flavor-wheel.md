@@ -1,32 +1,52 @@
 ---
 templateKey: blog-post
-title: Making sense of the SCAA’s new Flavor Wheel
-date: 2016-12-17T15:04:10.000Z
-description: The Coffee Taster’s Flavor Wheel, the official resource used by coffee tasters, has been revised for the first time this year.
+title: Software Developers should learn from Powerlifters
+date: 2018-01-16T15:04:10.000Z
+description: There is a huge overlap of software developers and powerlifters, likely because of how similar the training process is. But in some cases, the analogy breaks... and an untapped market reveals itself.
 tags:
-  - flavor
-  - tasting
+  - programming
+  - learning
+  - powerlifting
+  - training
+  - coffee
 ---
+![chemex](/img/chemex.jpg)
 
-![flavor wheel](/img/flavor_wheel.jpg)
+If you've spent much time in a powerlifting gym, you've probably noticed that a lot of [lifters are also software developers](https://www.reponestrength.com/).  What makes a sport that consists of "lifting the heaviest weights possible" attract people who otherwise sit at a computer all day?  A likely answer is that the training/self-improvement process is essentially the same, with only a few key caveats.  One such caveat suggests that software devs have a major blindspot in their learning process that powerlifters have already accounted for.
 
-The SCAA updated the wheel to reflect the finer nuances needed to describe flavors more precisely. The new descriptions are more detailed and hence allow cuppers to distinguish between more flavors.
+[IMAGE -- SPOTTED AT SF IRON]
+The [coffee setup](https://www.quora.com/Why-do-programmers-love-coffee) in [a gym](https://www.sf-iron.com/) I visited a few weeks ago.  (If you know, you know)[https://www.youtube.com/watch?v=n0PpzTheWQU].
 
-While this is going to be a big change for professional coffee tasters, it means a lot to you as a consumer as well. We’ll explain how the wheel came to be, how pros use it and what the flavors actually mean.
+Good programmers who don't focus on continuing education simply don't exist.  This is true of many professions, but software devs in particular have the added complexity of working with a wide range of ever-changing technologies - so adaptation and learning is the name of the game.   If a programmer doesn't like this aspect of the profession, then they won't last long.  Or they end up writing Python 2.6 code for fixed income trader's P&L reporting at Bank of America (I've seen this first hand).  But I digress...
 
-## What the updates mean to you
+The same is true of powerlifters.  In fact, its a bit more extreme: if a powerlifter doesn't continually build their technique + strength (analogous to software developers' skill + grit/concentration), they lose it.  Indeed, a [large literature](https://www.strongerbyscience.com/mass/) has developed around the science of "periodization" which refers to strategies for [organizing training, and making decisions about when and what type of stress you place on the body](https://www.jtsstrength.com/periodization-powerlifting-definitive-guide/).  
 
-The Specialty Coffee Association of America (SCAA), founded in 1982, is a non-profit trade organization for the specialty coffee industry. With members located in more than 40 countries, SCAA represents every segment of the specialty coffee industry, including:
+Most elite powerlifters log all of their workouts to share with a coach, who uses this information to program optimal workouts for the athlete.  Coaches use various techniques to help the athlete develop the strength and skill for performing at powerlifting meets.  Athletes without a coach are generally not elite (so are less willing to pay for an edge).  They have to create their own periodization schemes (known as powerlifting programs), or buy templates that have been built by pros.  A large industry has emerged to fill this need.  [Starting Strength](https://startingstrength.com/about) is the most popular, but [I recommend barbell medicine](https://www.barbellmedicine.com/product-category/downloadable-templates/).  Of course, these are no replacement for a coach who can focus on the unique aspects of each athlete.
 
-* producers
-* roasters
-* importers/exporters
-* retailers
-* manufacturers
-* baristas
+The principles that are used to create a powerlifting programs consist of roughly seven concepts: "Stimulus-Recovery-Adaptation", "Overload", "Specificity", "Variation", "Fatigue  Management", "Phase Potentiation", and "Individual Differences".  Describing each concept is beyond the scope of this article, but I encourage everyone to [read about them](https://www.jtsstrength.com/periodization-powerlifting-definitive-guide/), since the application to personal growth and learning is clear as day.
 
-For over 30 years, SCAA has been dedicated to creating a vibrant specialty coffee community by recognizing, developing and promoting specialty coffee. SCAA sets and maintains quality standards for the industry, conducts market research, and provides education, training, resources, and business services for its members.
+In fact, these principles could have come straight from Barbara Oakley's wonderful [A Mind For Numbers](https://www.amazon.com/Mind-Numbers-Science-Flunked-Algebra-ebook/dp/B00G3L19ZU) -- in other words, the principles that make your body stronger and more skilled have synonymous concepts in the current literature for learning and memory.
 
-Coffee cupping, or coffee tasting, is the practice of observing the tastes and aromas of brewed coffee. It is a professional practice but can be done informally by anyone or by professionals known as "Q Graders". A standard coffee cupping procedure involves deeply sniffing the coffee, then loudly slurping the coffee so it spreads to the back of the tongue.
+[embed https://youtu.be/O96fE1E-rf8]
 
-The coffee taster attempts to measure aspects of the coffee's taste, specifically the body (the texture or mouthfeel, such as oiliness), sweetness, acidity (a sharp and tangy feeling, like when biting into an orange), flavour (the characters in the cup), and aftertaste. Since coffee beans embody telltale flavours from the region where they were grown, cuppers may attempt to identify the coffee's origin.
+All this said, your mind and your body are not identical, and strength doesn't have a perfect parallel for programmers.  So the analogies break down at some point.  Let look at the most obvious ones...
+
+The first difference: Peaking
+In general, powerlifting programs will decrease the amount of work an athlete performs as a competition approaches.  This is known as "peaking" -- an athlete sacrifices some fitness in exchange for lower fatigue.  When done correctly, this is a trade-off worth making:  
+
+IMG: https://lh3.googleusercontent.com/NahxrisqHjRa-2x1XZxh_PbWhXJRYUWmMUZHJNnPCcdmUN2Lqxnu4qm7Mhi-zTlttak3v8QtbUsF0tPLrDmAQ5AflDnV-v1FXGrpMWZmtTwfJSbkVT49igWLlDbRO0DZvgMBeyyn2gw.  
+
+It's not clear that an appropriate analogy can be drawn to software development learning practices.  I could try (I did try), but it's not worth it.  Software developers don't need a "peaking" stage.
+
+The biggest difference (and what Software Developers should learn from Powerlifters)
+
+If there is one place where training in software development vs powerlifting is fundamentally different, then maybe something can be learned from one of the groups.   And it seems that powerlifters as a group have figured out something that software devs haven't caught onto yet... *Powerlifters hire coaches*.
+
+Elite powerlifters hire coaches because they need to focus their efforts on becoming as strong and skilled as possible -- the complexity of creating an individualized periodization program is better left in the hands of someone who does that professionally (this seems obvious).  Coaches want to build resumes of impressive athletes, which benefits lifters who get plans and feedback from someone who has 'skin in the game'.
+
+Almost no programmer thinks the training provided by their employer or coworkers is any good (if you do, I'd love to hear from you).  The social structures that support growth as a programmer aren't sufficient, and for many, don't exist outside of the university.  Agnes Collard, a philosopher who wrote a book about 'aspiration' recently said, "University makes it possible to throw people into an environment with the thought "I want to become something." And that thought is productive, in a way that it often isn't when you sorta "go find yourself". Because when you "go find yourself in Europe", there isn't an institutional structure that is in any sense guiding you so that you get somewhere. But at universities, you are being guided, in a very gentle way, and there's so many ends you could pick, that even if you don't know where you are going, you could be going somewhere."  The only place I know of that provides such a support structure is [Recurse Center](https://www.recurse.com/), which I can't speak more highly of, but it comes with the opportunity cost of 3 months without a professional job and relocating to NYC, which is most programmers aren't taking advantage of it.
+
+Unlike my peers in powerlifting, I don't have peers in software development that have coaches.  Nobody that I know of is paying a professional to lay out individualized systems for their continuing education, or getting feedback from someone who is incentivized by their success (except maybe people in the midst of something like [Lambda School](https://lambdaschool.com/), but that is for people beginning their career - not 'experts').  Today, it is left up to the programmer to find the next best things to learn, strengthen their foundations ([GPP](https://barbend.com/general-physical-preparedness/)), use "[progressive overload](https://www.jtsstrength.com/smart-training-is-hard-training-the-principle-of-overload/)" to continually work on harder problems, control for [fatigue](https://www.jtsstrength.com/fatigue-explained/), craft it for their [individual interests/strengths/weaknesses](https://www.jtsstrength.com/scientific-principles-of-weightlifting-individual-differences/), and have an appropriate level of focus on [specificity and variability](https://www.barbellmedicine.com/the-pendulum-of-specifity-in-application-part-i/).
+
+If this sounds difficult, that's because it is.  That's why there should be an industry of people who do this for a living.  It's absurd to leave this up to the person who needs to focus on the actual learning.  There's clearly a market waiting to be built.  No, online classes are not the answer: only [5.5% of online courses are completed](https://blog.edx.org/study-moocs-offers-insights-online-learner-engagement-behavior).   Individualized training, supported by someone with skin in the game, is a hard business model to scale.  But someone is going to do it.  Powerlifters have already figured it out. 
+ In the software world, who is going to get there first?
