@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'The Journal of Jonathan Sanders',
+    title: "Jon's Journal",
     description: 'This is a place for Jon to write',
   },
   plugins: [
