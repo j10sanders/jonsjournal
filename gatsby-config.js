@@ -2,9 +2,13 @@ module.exports = {
   siteMetadata: {
     title: "Jon's Journal",
     description: 'This is a place for Jon to write',
+    siteUrl: 'https://jonsjournal.com'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
+    {
+      resolve: `gatsby-plugin-feed`
+    },
     'gatsby-plugin-sass',
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
