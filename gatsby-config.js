@@ -54,7 +54,7 @@ module.exports = {
                 }
               }
             `,
-            output: "https://jonsjournal.com/blog/",
+            output: "jonsjournal.com/blog/",
             title: "Jons Journal - RSS Feed",
           },
         ],
