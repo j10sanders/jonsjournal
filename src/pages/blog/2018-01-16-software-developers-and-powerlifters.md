@@ -11,11 +11,11 @@ tags:
   - coffee
 ---
 
-&nbsp;
+<br />
 
 ![russsquat](/img/russsquat.jpg)
 
-&nbsp;
+<br />
 
 If you've spent much time in a powerlifting gym, you've probably noticed that many [lifters are also software developers](https://www.reponestrength.com/).  What makes a sport that consists of "lifting the heaviest weights possible" attract people who otherwise sit at a computer all day?  A likely answer is that the training/self-improvement process is essentially the same, with only a few key caveats.  One such caveat suggests that *powerlifters have exposed a major blind-spot in the current software developer learning process.*
 
@@ -73,6 +73,8 @@ Almost no programmer thinks the training provided by their employer or coworkers
 The only place I know of that provides such a support structure is [Recurse Center](https://www.recurse.com/), which I can't speak more highly of, but it comes with the opportunity cost of 3 months without a professional job and relocating to NYC, which is why most programmers haven't taken advantage of it.  
 
 ![rc](/img/rc.jpg)
+
+<br />
 
 There isn't, yet, an significant industry of ongoing professional-development coaches in the software development space -- Unlike my peers in powerlifting, I don't have peer programmers who have coaches.  Nobody that I know of is paying a professional to lay out individualized systems for their continuing education, or getting feedback from someone who is incentivized by their success.  Something like this exists for people beginning their career ([Lambda School](https://lambdaschool.com/)), but not for current professionals.  Today, it is left up to the programmer to find the next best things to learn, strengthen their foundations ([GPP](https://barbend.com/general-physical-preparedness/)), use "[progressive overload](https://www.jtsstrength.com/smart-training-is-hard-training-the-principle-of-overload/)" to continually work on harder problems, control for [fatigue](https://www.jtsstrength.com/fatigue-explained/), craft it for their [individual interests/strengths/weaknesses](https://www.jtsstrength.com/scientific-principles-of-weightlifting-individual-differences/), and have an appropriate level of focus on [specificity and variability](https://www.barbellmedicine.com/the-pendulum-of-specifity-in-application-part-i/).
 
