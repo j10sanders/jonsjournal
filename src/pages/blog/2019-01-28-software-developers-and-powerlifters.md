@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Software Developers should learn from Powerlifters
-date: 2018-01-16T15:04:10.000Z
+date: 2019-01-28T15:04:10.000Z
 description: A large proportion of powerlifters are software developers.  While there are a number of similarites between programming and powerlifting, the likeliest reason for the overlap is because of how similar the training process is. But the differences are more interesting, because that's where an untapped market can reveal itself.
 
 tags:
