@@ -1,19 +1,9 @@
 ---
 templateKey: 'about-page'
 path: /about
-title: About our values
+title: About Jon who Journals
 ---
-### Shade-grown coffee
-Coffee coffee `coffee` dd
+My name is Jonathan Sanders, and I'm a programmer because I like making things. I'm fascinated by web3 technologies and I'm a bit of a React fanboy.
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+Non-progamming things that I enjoy include: [inari](https://pogogi.com/what-inari-sushi-and-how-make-it), [mandolin](https://www.youtube.com/watch?v=5xeLXC5Ph98), [board games](https://boardgamegeek.com/boardgame/232405/western-legends), [powerlifting](http://usapl.liftingdatabase.com/lifters-view?id=37768), and [cheesecake](https://www.wsj.com/articles/evolution-of-new-yorks-cheesecake-1376270944).
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
-
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
-
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
