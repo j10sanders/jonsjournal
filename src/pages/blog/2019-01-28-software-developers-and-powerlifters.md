@@ -2,14 +2,14 @@
 templateKey: blog-post
 title: Software Developers should learn from Powerlifters
 date: 2019-01-28T15:04:10.000Z
-description: A large proportion of powerlifters are software developers.  While there are a number of similarites between programming and powerlifting, the likeliest reason for the overlap is because of how similar the training process is. But the differences are more interesting, because that's where an untapped market can reveal itself.
+description: A large proportion of powerlifters are software developers.  While there are a number of similarites between programming and powerlifting, the likeliest reason for the overlap is because of how similar the training process is. But the differences in how they train are even more interesting, because that's where an untapped market can be found.
 
 tags:
   - programming
   - learning
   - powerlifting
   - training
-  - coffee
+
 ---
 
 <br />
@@ -51,7 +51,7 @@ In fact, these principles could have come straight from Barbara Oakley's wonderf
 
 All this said, your mind and your body are not identical, and strength doesn't have a perfect parallel for programmers.  So the analogies break down at some point.  Let look at the most obvious ones...
 
-##The first difference: Peaking##
+##The first difference (and why it doesn't matter): Peaking##
 
 In general, powerlifting programs will decrease the amount of work an athlete performs as a competition approaches.  This is known as "peaking" -- an athlete sacrifices some fitness in exchange for lower fatigue.  When done correctly, this is a trade-off worth making:  
 
@@ -59,7 +59,7 @@ In general, powerlifting programs will decrease the amount of work an athlete pe
 
 It's not clear that an appropriate analogy can be drawn to software development learning practices.  I could try to find a similar concept (I did try), but it's not worth it.  Software developers don't need a "peaking" stage.
 
-##The important difference (and what Software Developers should learn from Powerlifters)##
+##The other difference (and why it matters)##
 
 If there is one place where training to be a better software developer vs powerlifter is fundamentally different, then maybe something can be learned from one of the groups.   And it seems that powerlifters as a group have figured out something that software devs haven't caught onto yet... *Powerlifters hire coaches*.
 
