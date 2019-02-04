@@ -2,6 +2,16 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
+import styled from 'styled-components'
+
+const PostSelector = styled.div`
+  border: 1px solid #333;
+  transition: box-shadow .5s;
+  &:hover {
+    box-shadow: 0px 2px 40px #B6B6B6, 0px 4px 6px #B6B6B6;
+  }
+  padding: 2em 4em;
+`
 
 export default class IndexPage extends React.Component {
   render() {
@@ -17,9 +27,8 @@ export default class IndexPage extends React.Component {
             </div>
             {posts
               .map(({ node: post }) => (
-                <div
+                <PostSelector
                   className="content"
-                  style={{ border: '1px solid #333', padding: '2em 4em' }}
                   key={post.id}
                 >
                   <p>
@@ -37,7 +46,7 @@ export default class IndexPage extends React.Component {
                       Keep Reading →
                     </Link>
                   </p>
-                </div>
+                </PostSelector>
               ))}
           </div>
         </section>
