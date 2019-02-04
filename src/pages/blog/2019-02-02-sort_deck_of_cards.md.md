@@ -47,64 +47,24 @@ var binSort = (nums, range) => {
 This is a dumb algorithm.  It just returns an array built from the range.  Sure, it works, but only if you are sorting an array of plain numbers, with no missing numbers, and no duplicates.  Very silly indeed.
 
 
-###Less dumb version:
+###Smart version:
 ```javascript
 const binSort = (nums, range) => {
   const low = range ? range[0] : Math.min(...nums); // Θ(n) if needed
   const high = range ? range[1] : Math.max(...nums); // Θ(n) if needed
-  const bins = []
-  const sorted = []
+  const bins = [];
+  const sorted = [];
   for (let i = low; i <= high; i++) { // Θ(n)
-    bins.push([i, 0]);
+    // highlight-next-line
+    bins.push([]);
   }
   for (let i of nums){ // Θ(n)
-    bins[i-low][1] += 1
+    bins[i-low].push(i);
   }
-  for (let i in bins){ // Θ(n) (or could just return bins, if caller is ok with that)
-    if (bins[i][1] !== 0) {
-      for (let duplicates = 0; duplicates < bins[i][1]; duplicates++) {
-        sorted.push(bins[i][0])
-      }
-    }
-  }
-  return sorted
+  return [].concat.apply([], bins)
 }
 ```
 
-This version can handle duplicate and missing numbers within the range.  If we already have the range, then we are at Θ(3* *n*), and Θ(2* *n*) if the caller is ok with getting `bins` back.  In either case, we still have Θ(*n*), so we've still shaved off log *n*.  We can even use the numbers themselves (which we can easily extend so that these could be objects with extra data):
-
-```javascript
-const binSort = (nums, range) => {
-  const low = range ? range[0] : Math.min(...nums); // Θ(n) if needed
-  const high = range ? range[1] : Math.max(...nums); // Θ(n) if needed
-  const bins = []
-  const sorted = []
-  for (let i = low; i <= high; i++) { // Θ(n)
-    // highlight-next-line
-    bins.push([i, []]);
-  }
-  for (let i of nums){ // Θ(n)
-    // highlight-next-line
-    bins[i-low][1].push(i)
-  }
-  for (let i in bins){ // Θ(n)
-    if (bins[i][1].length !== 0) {
-      for (let duplicates = 0; duplicates < bins[i][1].length; duplicates++) {
-        sorted.push(bins[i][1][duplicates])
-      }
-    }
-  }
-  for (let i in bins){ // Θ(n)
-    // highlight-start
-    if (bins[i][1].length !== 0) {
-      for (let duplicates = 0; duplicates < bins[i][1].length; duplicates++) {
-        sorted.push(bins[i][1][duplicates])
-      }
-    }
-    // highlight-end
-  }
-  return sorted
-}
-```
+This version can handle duplicate and missing numbers within the range, and we've still shaved off log *n*. 
 
 What's the downside?  Space.  I personally don't think about space enough.  One of the reasons that Merge Sort is so beautiful is the space complexity
