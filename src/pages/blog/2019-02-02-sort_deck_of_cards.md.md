@@ -74,9 +74,9 @@ This version can handle duplicate and missing numbers within the range, and we'v
 
 The obvious downside is space -- something I personally don't think about enough.  One of the reasons that Mergesort is so beautiful is the space complexity is Θ(*n*).  Now think about Bucket Sort.  Space complexity is Θ(*n* + *k*)... where `k` is the *range of the values* (because an array of buckets has to be created first).  Imagine you have an array [0, 1, 1000000000].  *n* + *k* = 1,000,000,003.
 
-Importantly, the time complexity for Bucket Sort is also not *really* just Θ(*n*) -- it's also Θ(*n* + *k*).  The larger the range, relative to the length of the array to be sorted, the larger the space and time inefficeincy.
+Importantly, the time complexity for Bucket Sort is also not *really* just Θ(*n*) -- it's also Θ(*n* + *k*).  The larger the range, relative to the length of the array to be sorted, the larger the space and time inefficiency.
 
-Sometimes this tradeoff is worth it though.  Take the deck of cards example.  Since the range is the same as the length of the 52 cards, the time (and space) complexity is just 2*n*.
+Sometimes this trade-off is worth it though.  Take the deck of cards example.  Since the range is the same as the length of the 52 cards, the time (and space) complexity is just 2*n*.
 
 Next time you call `.sort()`, think about the range of your array.  Maybe Bucket Sort is a better option.  And maybe it isn't. 
 
