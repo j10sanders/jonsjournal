@@ -5,10 +5,10 @@ import Layout from '../components/Layout'
 import styled from 'styled-components'
 
 const PostSelector = styled.div`
-  border: 1px solid #333;
+  border: 1px solid #E6E6E6;
   transition: box-shadow .5s;
   &:hover {
-    box-shadow: 0px 1px 20px #B6B6B6, 0px 2px 3px #B6B6B6;
+    box-shadow: 0px 2px 20px #B6B6B6, 0px 4px 6px #B6B6B6;
   }
   padding: 2em 4em;
 `
