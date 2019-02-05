@@ -90,6 +90,6 @@ Bucket Sort can be used for non integers, especially as a first step (where an e
 
 It can be an exceptionally bad algorithm in this case, if the input is not uniformly distributed.  In the worst case, it is actually Θ(*n*<sup>2</sup>).  
 
-Also of note: sorting a deck of cards with Bin Sort is actually using [Counting Sort](https://en.wikipedia.org/wiki/Counting_sort), because "if each bucket has size 1 then bucket sort degenerates to counting sort.[[1]](https://en.wikipedia.org/wiki/Bucket_sort#Comparison_with_other_sorting_algorithms)".  
+Also of note: sorting a deck of cards with Bin Sort is actually using [Counting Sort](https://en.wikipedia.org/wiki/Counting_sort), because "if each bucket has size 1 then bucket sort degenerates to counting sort" [[wikipedia]](https://en.wikipedia.org/wiki/Bucket_sort#Comparison_with_other_sorting_algorithms).  
 
 Good stuff.

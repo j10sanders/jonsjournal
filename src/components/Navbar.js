@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import github from '../img/github-icon.svg'
+import twitter from '../img/twitter-circle.svg'
 import styled from 'styled-components'
 
 const Logo = styled.svg`
@@ -64,6 +65,16 @@ const Navbar = class extends React.Component {
         >
           <span className="icon">
             <img src={github} alt="Github" />
+          </span>
+        </a>
+        <a
+          className="navbar-item"
+          href="https://twitter.com/jonsjournals"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span className="icon">
+            <img src={twitter} alt="Twitter" />
           </span>
         </a>
       </div>
