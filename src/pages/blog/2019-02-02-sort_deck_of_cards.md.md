@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Sorting in Linear Time -- the Demise of Mergesort?
-date: 2019-02-02T15:04:10.000Z
+date: 2019-02-04T15:04:10.000Z
 description: What is the fastest way to sort a deck of cards?
 
 tags:
@@ -12,7 +12,7 @@ tags:
 ---
 
 
-While hanging out at RC last week, [Byung](http://byshiny.com/) asked me a question: "What is the fastest way to sort a deck of cards?  I thought this might be a trick question, because you aren't going to beat Mergesort.  The beautiful algorithm sorts an array of *n* items in Θ(*n* log *n*) with a beautifully simple divide-and-conquer method.  And that's that -- you can't sort a randomly unsorted array any faster than *n* log *n*
+While hanging out at RC last week, [Byung](http://byshiny.com/) asked me a question: "What is the fastest way to sort a deck of cards?  I thought this might be a trick question, because you aren't going to beat the beauty, simplicity, and speed of Mergesort, which sorts an array of *n* items in Θ(*n* log *n*) with a beautifully simple divide-and-conquer method.  And that's that -- you can't sort a randomly unsorted array any faster than *n* log *n*
 
 ![merge](/img/Merge-sort.gif)
 
@@ -28,7 +28,7 @@ No.  Wow.  It's makes so much sense.  It's terribly efficient.  But how?  How di
 
 Before my thoughts could spiral any further out of control, Byung consoled me:  it's because we have extra information about the deck of cards... we know the range.  
 
-The range can be found in Θ(*n*), so that doesn't seem to be the issue.  But I quickly came crashing back down to earth.  So we started poking holes in how great Bucket Sort really is.  Maybe it's not that good -- it can't be, right?  Let's see..
+The range can be found in Θ(*n*), so that doesn't seem to be the issue.  But I quickly came crashing back down to earth... there must be tradeoffs.  So we started poking holes in how great Bucket Sort really is.  Maybe it's not that good -- it can't be, right?
 
 I was tempted to google this mysterious, brutally simple algorithm, but figured it might be better to try implementing it myself.  And to write about it's upsides and downsides *before seeing what anyone else has said about it*.  So this is an exercise in thinking -- and if you want to learn more about this algorithm, feel free to google it instead of reading my inefficient way of understanding it.  You might save more than log *n* seconds.  Up to you.
 
@@ -57,11 +57,12 @@ const bucketSort = (nums, range) => {
   const high = range ? range[1] : Math.max(...nums); // Θ(n) if needed
   const buckets = [];
   const sorted = [];
-  for (let i = low; i <= high; i++) { // Θ(n)
+  for (let i = low; i <= high; i++) { // Θ(k)
     // highlight-next-line
     buckets.push([]);
   }
   for (let i of nums){ // Θ(n)
+    // highlight-next-line
     buckets[i-low].push(i);
   }
   return [].concat.apply([], buckets)
@@ -92,4 +93,4 @@ It can be an exceptionally bad algorithm in this case, if the input is not unifo
 
 Also of note: sorting a deck of cards with Bin Sort is actually using [Counting Sort](https://en.wikipedia.org/wiki/Counting_sort), because "if each bucket has size 1 then bucket sort degenerates to counting sort" [[wikipedia]](https://en.wikipedia.org/wiki/Bucket_sort#Comparison_with_other_sorting_algorithms).  
 
-Good stuff.
+Merge on, my friends.  But use buckets when your array is bound by a fairly contained range and memory isn't as much of a concern.
