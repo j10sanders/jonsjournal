@@ -30,11 +30,11 @@ export default class IndexPage extends React.Component {
         <section className="section">
           <div className="container">
             <div className="content">
-              <h1 className="has-text-weight-bold is-size-2">Latest Journalings</h1>
+              <p className="has-text-weight-bold is-size-2">Latest Journalings</p>
             </div>
             {posts
               .map(({ node: post }) => (
-                <StyledLink className="has-text-dark" to={post.fields.slug}>
+                <StyledLink to={post.fields.slug}>
                   <PostSelector
                     className="content"
                     key={post.id}

@@ -41,13 +41,12 @@ const TemplateWrapper = class extends React.Component {
         `}
         render={data => (
           <div
-        style={{
-          width: '100%',
-          color: lightMode ? 'inherit' : 'rgba(255, 255, 255, 0.8)',
-          backgroundColor: lightMode ? '#ffffff' : '#212121',
-        }}
-      >
-        
+            style={{
+              width: '100%',
+              color: lightMode ? 'inherit' : 'rgba(255, 255, 255, 0.8)',
+              backgroundColor: lightMode ? '#ffffff' : '#212121',
+            }}
+          >
             <Helmet>
               <html lang="en" />
               <title>{data.site.siteMetadata.title}</title>

@@ -67,7 +67,7 @@ const Navbar = class extends React.Component {
           rel="noopener noreferrer"
         >
           <span className="icon">
-            <img src={github} alt="Github" />
+            <img src={github} alt="Github" style={{padding: '1px', backgroundColor: 'white', borderRadius: '13px'}}/>
           </span>
         </a>
         <a
@@ -77,7 +77,7 @@ const Navbar = class extends React.Component {
           rel="noopener noreferrer"
         >
           <span className="icon">
-            <img src={twitter} alt="Twitter" />
+            <img src={twitter} alt="Twitter" style={{padding: '1px', backgroundColor: 'white', borderRadius: '13px'}}/>
           </span>
         </a>
       </div>

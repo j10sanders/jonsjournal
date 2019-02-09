@@ -35,8 +35,6 @@ export default class Index extends React.Component {
 
   render() {
     return (
-      <div style={{backgroundColor: 'blue'}}>
-      hello
       <Layout>
         <section className="section">
           <div className="container">
@@ -84,7 +82,6 @@ export default class Index extends React.Component {
         </div>
         </section>
       </Layout>
-      </div>
     );
   }
 }
