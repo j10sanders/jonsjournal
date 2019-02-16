@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Sorting in Linear Time -- the Demise of Mergesort?
+title: Sorting in linear time -- the demise of Mergesort?
 date: 2019-02-04T15:04:10.000Z
 description: What is the fastest way to sort a deck of cards?
 
