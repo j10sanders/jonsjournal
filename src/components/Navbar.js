@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 import github from '../img/github-icon.svg'
 import twitter from '../img/twitter-circle.svg'
 import styled from 'styled-components'
+import Switch from 'react-switch'
 
 const Logo = styled.svg`
   bottom: -7px;
@@ -35,16 +36,30 @@ const Navbar = class extends React.Component {
  }
  
  render() {
+   console.log(this.props, "props")
    return (
-  
-  <nav className="navbar is-transparent" role="navigation" aria-label="main-navigation">
+    <nav style={{
+      width: '100%',
+      backgroundColor: this.props.lightMode ? '#ffffff' : '#212121',
+     }} className="navbar is-transparent" role="navigation" aria-label="main-navigation">
     <div className="container">
       <div className="navbar-brand">
         <Link to="/" className="navbar-item" title="Logo">
-          <Logo height="30" width="200">
+          <Logo height="30" width="150">
             <text x="0" y="15" fill="#ff6600">JON'S JOURNAL</text>
           </Logo>
         </Link>
+        <div style={{paddingTop: '12px'}}>
+        <Switch
+          id="lightMode"
+          onColor="#D3D3D3"
+          offColor="#303030"
+          checkedIcon={false}
+          uncheckedIcon={false}
+          checked={!this.props.lightMode}
+          onChange={this.props.toggleLightMode}
+        />
+        </div>
         {/* Hamburger menu */}
         <div className="navbar-burger burger" data-target="navMenu">
           <span></span>
@@ -64,7 +79,7 @@ const Navbar = class extends React.Component {
           rel="noopener noreferrer"
         >
           <span className="icon">
-            <img src={github} alt="Github" />
+            <img src={github} alt="Github" style={{padding: '1px', backgroundColor: 'white', borderRadius: '13px'}}/>
           </span>
         </a>
         <a
@@ -74,7 +89,7 @@ const Navbar = class extends React.Component {
           rel="noopener noreferrer"
         >
           <span className="icon">
-            <img src={twitter} alt="Twitter" />
+            <img src={twitter} alt="Twitter" style={{padding: '1px', backgroundColor: 'white', borderRadius: '13px'}}/>
           </span>
         </a>
       </div>
