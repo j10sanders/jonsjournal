@@ -41,11 +41,12 @@ const Navbar = class extends React.Component {
   }
 
   render() {
-    console.log(this.props, "props")
+    const color = this.props.lightMode ? '#212121' : '#ffffff';
+    const backgroundColor = this.props.lightMode ? '#ffffff' : '#212121';
     return (
       <nav style={{
         width: '100%',
-        backgroundColor: this.props.lightMode ? '#ffffff' : '#212121',
+        backgroundColor,
       }} className="navbar is-transparent" role="navigation" aria-label="main-navigation">
         <div className="container">
           <div className="navbar-brand">
@@ -66,13 +67,13 @@ const Navbar = class extends React.Component {
               />
             </div>
             {/* Hamburger menu */}
-            <div className="navbar-burger burger" data-target="navMenu">
+            <div className="navbar-burger burger" data-target="navMenu" style={{ color }}>
               <span></span>
               <span></span>
               <span></span>
             </div>
           </div>
-          <div id="navMenu" className="navbar-menu" style={{ backgroundColor: this.props.lightMode ? '#ffffff' : '#212121' }}>
+          <div id="navMenu" className="navbar-menu" style={{ backgroundColor }}>
             <div className="navbar-end has-text-centered">
               <Link className="navbar-item" to="/about">
                 About
@@ -83,8 +84,7 @@ const Navbar = class extends React.Component {
                 rel="noopener noreferrer"
               >
                 <span className="icon">
-                  {/* <img src={github} alt="Github" style={{padding: '1px', backgroundColor: 'white', borderRadius: '13px'}}/> */}
-                  <Github color={this.props.lightMode ? '#212121' : '#ffffff'} />
+                  <Github color={color} />
                 </span>
               </AImage>
               <AImage
@@ -93,7 +93,7 @@ const Navbar = class extends React.Component {
                 rel="noopener noreferrer"
               >
                 <span className="icon">
-                  <Twitter color={this.props.lightMode ? '#212121' : '#ffffff'} />
+                  <Twitter color={color} />
                 </span>
               </AImage>
             </div>
