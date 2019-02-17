@@ -64,6 +64,8 @@ const Navbar = class extends React.Component {
                 uncheckedIcon={false}
                 checked={!this.props.lightMode}
                 onChange={this.props.toggleLightMode}
+                activeBoxShadow="0 0 2px 3px #ff6600"
+                boxShadow="0 0 2px 1px #ff6600"
               />
             </div>
             {/* Hamburger menu */}
