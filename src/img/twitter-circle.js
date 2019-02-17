@@ -1,10 +1,11 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="512px" height="512px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+import React from 'react'
+
+export default ({color}) => (
+
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="512px" viewBox="0 0 512 512" style={{enableBackground: "new 0 0 512 512;"}} xmlSpace="preserve">
 <g>
-	<path d="M256,0C114.615,0,0,114.615,0,256s114.615,256,256,256s256-114.615,256-256S397.385,0,256,0z M403.121,180.544
+	<path fill={color} d="M256,0C114.615,0,0,114.615,0,256s114.615,256,256,256s256-114.615,256-256S397.385,0,256,0z M403.121,180.544
 		c0.146,3.254,0.221,6.528,0.221,9.819c0,100.311-76.354,215.982-215.979,215.982c-42.868,0-82.768-12.568-116.363-34.106
 		c5.938,0.702,11.981,1.062,18.108,1.062c35.565,0,68.295-12.138,94.275-32.496c-33.217-0.611-61.25-22.562-70.912-52.717
 		c4.637,0.885,9.392,1.361,14.283,1.361c6.923,0,13.629-0.928,19.999-2.662c-34.726-6.977-60.893-37.656-60.893-74.434
@@ -14,34 +15,6 @@
 		c-5.668,17.727-17.705,32.603-33.377,41.997c15.355-1.834,29.984-5.916,43.598-11.952
 		C430.824,156.471,417.955,169.84,403.121,180.544z"/>
 </g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
+
 </svg>
+)
