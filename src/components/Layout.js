@@ -20,10 +20,6 @@ const TemplateWrapper = class extends React.Component {
     this.setState({ lightMode })
   }
 
-
-
-
-
   render() {
     const {lightMode} = this.state
     return (
