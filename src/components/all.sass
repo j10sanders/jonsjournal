@@ -1,4 +1,4 @@
-@import "~bulma/sass/utilities/initial-variables"
+// @import "~bulma/sass/utilities/initial-variables"
 
 // Config vars
 // Kalidi logo brand color: #FD461E
@@ -7,21 +7,20 @@ $kaldi-red-invert: #fff
 
 $primary: $kaldi-red
 $primary-invert: $kaldi-red-invert
-$body-color: #333
+// $body-color: #333
 $dark-red: #901b2b
 
-$smaller-screen: 420px;
-$small-screen: 576px;
-$medium-screen: 768px;
-$large-screen: 992px;
-$largest-screen: 1200px;
+$smaller-screen: 420px
+$small-screen: 576px
+$medium-screen: 768px
+$large-screen: 992px
+$largest-screen: 1200px
 
 a
   color: $kaldi-red !important
 
 a:visited
   color: $dark-red
-
 
 .navbar .navbar-menu
   box-shadow:none !important
@@ -59,17 +58,38 @@ a:visited
   margin-top: 0 !important
 
 .video-container
-  position: relative;
-  width: 100%;
-  height: 0;
-  padding-bottom: 56.25%;
+  position: relative
+  width: 100%
+  height: 0
+  padding-bottom: 56.25%
 
 .video-iframe
-  position: absolute !important;
-  top: 0 !important;
-  left: 0 !important;
-  width: 100% !important;
-  height: 100%!important;
+  position: absolute !important
+  top: 0 !important
+  left: 0 !important
+  width: 100% !important
+  height: 100%!important
 
+.content .tag, .content .number, 
+  display: inline
+  padding: inherit
+  font-size: inherit
+  line-height: inherit
+  text-align: inherit
+  vertical-align: inherit
+  border-radius: inherit
+  font-weight: inherit
+  white-space: inherit
+  background: inherit
+  margin: inherit
+
+.content code
+  background-color: inherit
+
+.content h3
+  color: inherit !important
+
+.content h4
+  color: inherit !important
 
 @import "~bulma"
