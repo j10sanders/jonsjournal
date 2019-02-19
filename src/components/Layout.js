@@ -40,6 +40,7 @@ const TemplateWrapper = class extends React.Component {
               width: '100%',
               color: lightMode ? 'inherit' : 'rgba(255, 255, 255, 0.8)',
               backgroundColor: lightMode ? '#ffffff' : '#212121',
+              minHeight: '100vh'
             }}
           >
             <Helmet>
@@ -60,7 +61,7 @@ const TemplateWrapper = class extends React.Component {
               <meta property="og:image" content="/img/og-image.jpg" />
             </Helmet>
             <Navbar lightMode={lightMode} toggleLightMode={this.toggleLightMode} />
-            <div>{this.props.children}</div>
+            <div >{this.props.children}</div>
           </div>
         )}
       />
