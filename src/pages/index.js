@@ -29,9 +29,7 @@ export default class IndexPage extends React.Component {
 
     return (
       <Layout>
-        <section className="section">
-          <div className="container">
-          
+        
             <div className="content">
               <p className="has-text-weight-bold is-size-2">Latest Journalings</p>
               
@@ -58,8 +56,7 @@ export default class IndexPage extends React.Component {
                   </PostSelector>
                 </StyledLink>
               ))}
-          </div>
-        </section>
+
       </Layout>
     )
   }

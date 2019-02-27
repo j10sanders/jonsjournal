@@ -4,6 +4,14 @@ import { StaticQuery, graphql } from "gatsby"
 import Navbar from '../components/Navbar'
 import { loadState, saveState } from '../utils/helpers'
 import './all.sass'
+import styled from 'styled-components'
+
+const CenterDiv = styled.div`
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60rem;
+  padding:2.625rem 1.3125rem;
+`
 
 const TemplateWrapper = class extends React.Component {
   constructor() {
@@ -19,10 +27,6 @@ const TemplateWrapper = class extends React.Component {
     saveState('lightMode', lightMode)
     this.setState({ lightMode })
   }
-
-
-
-
 
   render() {
     const {lightMode} = this.state
@@ -64,7 +68,7 @@ const TemplateWrapper = class extends React.Component {
               <meta property="og:image" content="/img/og-image.jpg" />
             </Helmet>
             <Navbar lightMode={lightMode} toggleLightMode={this.toggleLightMode} />
-            <div>{this.props.children}</div>
+            <CenterDiv>{this.props.children}</CenterDiv>
           </div>
         )}
       />
