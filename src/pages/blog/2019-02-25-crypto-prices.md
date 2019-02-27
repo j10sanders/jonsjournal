@@ -22,6 +22,7 @@ So I'll lay out the case here.  If you are fascinated by technology and love cre
 
 Do I need to start by saying *"The content here is for informational purposes only, and should not be taken as investment advice -- or be used to evaluate any investment or security"*?  Most podcasts, articles, YouTube videos, and other media start with this disclaimer whenever the content is related to crypto.  And that sucks.  I don't see that disclaimer on other tech media, and for a good reason -- *price is not integral to other technologies or protocols*.
 
+###The crux of the grimace
 And this is the crux of where the grimace comes from: **prices**.  When people talk about [monads](https://en.wikipedia.org/wiki/Monad_(functional_programming)), the conversation has no chance of veering into speculation about the price of monads.  Or how much money one of their friends made trading monads before people knew about them.  Or how they got burnt by buying monads in late 2017.  Or how someone stole their mom's secret key, so she lost all her monads.  And if you google monads, you don't get inundated with results of chart-whisperers who want to tell you why the monad bear market is getting exciting again because 'institutional investors' are getting on board. 
 
 No, price is not a part of monads.  Price is a technology that deals with scarcity, and scarcity is easily built into cryptocurrencies.
@@ -40,11 +41,10 @@ Prices matter when scarcity is involved, and this is important on the internet f
 
 With prices built into an internet technology, we start to see words and phrases like "borderless payments", "uncensorable, "instant settlement", "liquid", "auditable", etc... [[1]](https://medium.com/wyre-capital/why-you-should-care-about-crypto-finance-61078b18f70d)  These are mechanisms that we get to play with now.
 
-###But the technology isn't interesting.
+###But the technology isn't interesting
 *"The technology itself is not that interesting, so I'd rather work on something else."*
 
 I've heard this before, and I sort of agree with the premise, but not the conclusion.  The premise essentially says "cryptography is not new, and neither are protocols for governance, nor the internet for that matter.  Blockchains are a combination of those three technologies."  And that is correct.  But if you are only interested in technologies that are novel and deeply, inherently, fascinating, then what are those?  What are the technologies that are interesting not for what they allow people to do, but merely on their own merits?  I'm not sure, but I also don't really care.  Why should we be uninterested in what we create?  In what we enable?  It's cliche to say that we write code for humans, but that's exactly what we do.
 
-
-
-
+###In Conclusion
+Prices are 
