@@ -21,42 +21,35 @@ const StyledLink = styled(Link)`
 `;
 
 export default class IndexPage extends React.Component {
-
-
   render() {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
 
     return (
       <Layout>
-        
-            <div className="content">
-              <p className="has-text-weight-bold is-size-2">Latest Journalings</p>
-              
-            </div>
-            
-            {posts
-              .map(({ node: post }) => (
-                <StyledLink to={post.fields.slug}>
-                  <PostSelector
-                    className="content"
-                    key={post.id}
-                  >
-                    <p>
-                      <Link className="has-text-primary" to={post.fields.slug}>
-                        {post.frontmatter.title}
-                      </Link>
-                      <span> &bull; </span>
-                      <small>{post.frontmatter.date}</small>
-                    </p>
-                    <p>
-                      {post.excerpt}
-                    </p>
-                    
-                  </PostSelector>
-                </StyledLink>
-              ))}
-
+        <div className="content">
+          <p className="has-text-weight-bold is-size-2">Latest Journalings</p>
+        </div>
+        {posts
+          .map(({ node: post }) => (
+            <StyledLink to={post.fields.slug}>
+              <PostSelector
+                className="content"
+                key={post.id}
+              >
+                <p>
+                  <Link className="has-text-primary" to={post.fields.slug}>
+                    {post.frontmatter.title}
+                  </Link>
+                  <span> &bull; </span>
+                  <small>{post.frontmatter.date}</small>
+                </p>
+                <p>
+                  {post.excerpt}
+                </p>
+              </PostSelector>
+            </StyledLink>
+          ))}
       </Layout>
     )
   }
