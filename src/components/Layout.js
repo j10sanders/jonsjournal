@@ -29,7 +29,7 @@ const TemplateWrapper = class extends React.Component {
   }
 
   render() {
-    const {lightMode} = this.state
+    const { lightMode } = this.state
     return (
       <StaticQuery
         query={graphql`
@@ -38,6 +38,7 @@ const TemplateWrapper = class extends React.Component {
                 siteMetadata {
                   title,
                   description,
+                  siteUrl
                 }
               }
             }
@@ -51,7 +52,12 @@ const TemplateWrapper = class extends React.Component {
               minHeight: '100vh'
             }}
           >
-            <Helmet>
+            <Helmet title={data.site.siteMetadata.title}>
+              <meta name="twitter:card" content="summary_large_image" />
+              <meta
+                name="twitter:image"
+                content={`${data.site.siteMetadata.siteUrl}${this.props.slug}twitter-card.jpg`}
+              />
               <html lang="en" />
               <title>{data.site.siteMetadata.title}</title>
               <meta name="description" content={data.site.siteMetadata.description} />
