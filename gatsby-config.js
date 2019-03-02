@@ -98,9 +98,6 @@ module.exports = {
             }
           },
           {
-            resolve: `gatsby-remark-social-cards`
-          },
-          {
             resolve: 'gatsby-remark-relative-images',
             options: {
               name: 'uploads',
