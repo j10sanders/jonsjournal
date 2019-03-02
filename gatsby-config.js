@@ -84,11 +84,19 @@ module.exports = {
       },
     },
     'gatsby-plugin-sharp',
+    'gatsby-plugin-twitter',
     'gatsby-transformer-sharp',
     {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
+          {
+            resolve: "gatsby-remark-external-links",
+            options: {
+              target: "_blank",
+              // rel: "nofollow"
+            }
+          },
           {
             resolve: 'gatsby-remark-relative-images',
             options: {
@@ -109,14 +117,7 @@ module.exports = {
             options: {
               destinationDir: 'static',
             }
-          }
-        ],
-      },
-    },
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [
+          },
           {
             resolve: `gatsby-remark-prismjs`,
             options: {
@@ -151,10 +152,10 @@ module.exports = {
               // If setting this to true, the parser won't handle and highlight inline
               // code used in markdown i.e. single backtick code like `this`.
               noInlineHighlight: false,
-            },
-          },
-        ],
-      },
+            }
+          }
+        ]
+      }
     },
     {
       resolve: 'gatsby-plugin-netlify-cms',
