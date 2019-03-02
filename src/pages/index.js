@@ -26,7 +26,7 @@ export default class IndexPage extends React.Component {
     const { edges: posts } = data.allMarkdownRemark
 
     return (
-      <Layout>
+      <Layout slug={data.markdownRemark.fields.slug}>
         <div className="content">
           <p className="has-text-weight-bold is-size-2">Latest Journalings</p>
         </div>
