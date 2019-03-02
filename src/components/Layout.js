@@ -48,6 +48,7 @@ const TemplateWrapper = class extends React.Component {
               width: '100%',
               color: lightMode ? 'inherit' : 'rgba(255, 255, 255, 0.8)',
               backgroundColor: lightMode ? '#ffffff' : '#212121',
+              minHeight: '100vh'
             }}
           >
             <Helmet>
