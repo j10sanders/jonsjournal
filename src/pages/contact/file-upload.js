@@ -43,7 +43,7 @@ export default class Contact extends React.Component {
   render() {
     return (
       <Layout>
-        <section className="section">
+        
           <div className="container">
             <div className="content">
         <h1>File Upload</h1>
@@ -92,7 +92,6 @@ export default class Contact extends React.Component {
         </form>
         </div>
         </div>
-      </section>
       </Layout>
     );
   }
