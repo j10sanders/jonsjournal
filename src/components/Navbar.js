@@ -52,7 +52,7 @@ const Navbar = class extends React.Component {
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
               <Logo height="30" width="150">
-                <text x="0" y="15" fill="#ff6600">JON'S JOURNAL</text>
+                <text x="0" y="15" fill="#009972">JON'S JOURNAL</text>
               </Logo>
             </Link>
             <div style={{ paddingTop: '12px' }}>
@@ -64,8 +64,8 @@ const Navbar = class extends React.Component {
                 uncheckedIcon={false}
                 checked={!this.props.lightMode}
                 onChange={this.props.toggleLightMode}
-                activeBoxShadow="0 0 2px 3px #ff6600"
-                boxShadow="0 0 2px 1px #ff6600"
+                activeBoxShadow="0 0 2px 3px #009972"
+                boxShadow="0 0 2px 1px #009972"
               />
             </div>
             {/* Hamburger menu */}
