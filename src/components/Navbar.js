@@ -13,7 +13,7 @@ const Logo = styled.svg`
 const AImage = styled.a`
   padding: 12px;
 `
-
+const themeColor = '#028975'
 
 const Navbar = class extends React.Component {
 
@@ -52,10 +52,10 @@ const Navbar = class extends React.Component {
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
               <Logo height="30" width="150">
-                <text x="0" y="15" fill="#028975">JON'S JOURNAL</text>
+                <text x="0" y="15" fill={themeColor}>JON'S JOURNAL</text>
               </Logo>
             </Link>
-            <div style={{ paddingTop: '12px' }}>
+            <div style={{ paddingTop: '15px' }}>
               <Switch
                 id="lightMode"
                 onColor="#D3D3D3"
@@ -64,8 +64,8 @@ const Navbar = class extends React.Component {
                 uncheckedIcon={false}
                 checked={!this.props.lightMode}
                 onChange={this.props.toggleLightMode}
-                activeBoxShadow="0 0 2px 3px #028975"
-                boxShadow="0 0 2px 1px #028975"
+                activeBoxShadow={`0 0 2px 3px ${themeColor}`}
+                boxShadow={`0 0 2px 1px ${themeColor}`}
               />
             </div>
             {/* Hamburger menu */}
@@ -85,8 +85,8 @@ const Navbar = class extends React.Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <span className="icon">
-                  <Github color={color} />
+                <span className="icon" style={{ paddingTop: '8px' }}>
+                  <Github color={color}/>
                 </span>
               </AImage>
               <AImage
@@ -94,7 +94,7 @@ const Navbar = class extends React.Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <span className="icon">
+                <span className="icon" style={{ paddingTop: '8px' }}>
                   <Twitter color={color} />
                 </span>
               </AImage>
