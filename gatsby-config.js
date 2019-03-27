@@ -109,6 +109,7 @@ module.exports = {
               // It's important to specify the maxWidth (in pixels) of
               // the content container as this plugin uses this as the
               // base for generating different widths of each image.
+              showCaptions: true,
               maxWidth: 2048,
             },
           },
