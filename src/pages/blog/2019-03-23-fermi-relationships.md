@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: The Fermi Paradox, Relationships, and Meaning
+title: The Fermi Paradox and what matters
 date: 2019-03-23T15:04:10.000Z
 description:
 
@@ -75,11 +75,11 @@ I have an acquaintance who did way too much LSD earlier in his life (he says he 
 It seems to come from a very common feeling that is associated with intense spiritual experiences: being connected to the world.  This closeness -- the feeling of being part of the cosmos (or God), of unity in the world, is associated with love.  This makes sense in the model of relationships being about a *shared* vulnerability, where meaning comes from the fact that it's both (or all) of yours.  The world becomes meaningful when your experiences are part of something bigger than yourself.
 
 
-But if love loses, as it sometimes does, then it can't be everything?  Right?  Right.  Relationships are real and are more than biochemical signals in our brains.  But they exist because we are vulnerable creatures with fleeting lives.  And of course, if everything is love, then where do the Nazis fit in?  "Love is everything" is maybe just using the wrong words.  Maybe "Love gives everything meaning, and that's all we have" is closer to the truth.  Not as catchy though.
+But if love loses, as it sometimes does, then it can't be everything, right?  Right.  Relationships are real and are more than biochemical signals in our brains.  But they exist because we are vulnerable creatures with fleeting lives (so it's not all love).  And of course, if everything is love, then where do the Nazis fit in?  "Love is everything" is maybe just using the wrong words.  Maybe "Through love, we can find meaning in the world, and that's all we have" is closer to the truth.  Not as catchy though.
 
 ###And what about aliens?
 Would evidence of intelligent life out there make us more or less loving?  Would it matter?
 
-I don't know.  It would probably make us vegetarians.  After all, if we aren't the most intelligent or powerful species, then our rational for factory-farming less-intelligent species backfires in a big way.  Wouldn't we be just as deserving of being slaughtered by more intelligent beings, as chickens deserve to be slaughtered by us?  We do not want aliens to start judging our behavior.  But that's not what I meant to write about...
+I don't know.  It would probably make us vegetarians.  After all, if we aren't the most intelligent or powerful species, then our rational for factory-farming less-intelligent species backfires in a big way.  Wouldn't we deserve to get slaughtered by more intelligent beings, just as much as chickens deserve to be slaughtered by us?  If more intelligent life is out there, we do not want it to judge our behavior.  But that's not what I meant to write about...
 
-Does thinking about vast periods of space and time make our relationships less meaningful?  Sometimes it seems that way.  Two trillion galaxies exist in this 13.8 billion years-old universe.  That should make us feel insignificant.  But nevertheless, we are part it.  As long as we remember that, our relationships should only become more vital.  If aliens exist or not, we're all we've got.
+Does thinking about vast amounts of space and time make our relationships less meaningful?  Sometimes it seems that way.  Two trillion galaxies exist in this 13.8 billion years-old universe.  That should make us feel insignificant.  But nevertheless, *we are part it*, and our insignificance is kinda the point.  As long as we remember that, our relationships should only become more vital.  If aliens exist or not, we're all we've got.

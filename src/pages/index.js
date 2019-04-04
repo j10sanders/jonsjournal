@@ -38,7 +38,7 @@ export default class IndexPage extends React.Component {
               <PostSelector
                 key={post.id}
               >
-                <p>
+                <p style={{paddingBottom: '1rem'}}>
                   <Link to={post.fields.slug}>
                     {post.frontmatter.title}
                   </Link>
