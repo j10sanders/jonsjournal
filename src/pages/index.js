@@ -3,9 +3,11 @@ import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import styled from 'styled-components'
+import '../components/all.sass'
+
 
 const PostSelector = styled.div`
-  border: 1px solid #E6E6E6;
+  border: 1px solid #EEEEEE;
   transition: box-shadow .5s;
   &:hover {
     box-shadow: 0px 2px 20px #B6B6B6, 0px 4px 6px #B6B6B6;
@@ -34,11 +36,10 @@ export default class IndexPage extends React.Component {
           .map(({ node: post }) => (
             <StyledLink to={post.fields.slug}>
               <PostSelector
-                className="content"
                 key={post.id}
               >
                 <p>
-                  <Link className="has-text-primary" to={post.fields.slug}>
+                  <Link to={post.fields.slug}>
                     {post.frontmatter.title}
                   </Link>
                   <span> &bull; </span>
