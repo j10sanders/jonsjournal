@@ -7,6 +7,12 @@ module.exports = {
   plugins: [
     'gatsby-plugin-react-helmet',
     {
+      resolve: `gatsby-plugin-styled-components`,
+      options: {
+        // Add any options here
+      },
+    },
+    {
       resolve: `gatsby-plugin-feed`,
       options: {
         query: `
@@ -109,6 +115,7 @@ module.exports = {
               // It's important to specify the maxWidth (in pixels) of
               // the content container as this plugin uses this as the
               // base for generating different widths of each image.
+              showCaptions: true,
               maxWidth: 2048,
             },
           },

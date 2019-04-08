@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import styled from 'styled-components'
-// import '../components/all.sass'
+import '../components/all.sass'
 
 const PostSelector = styled.div`
   border: 1px solid #EEEEEE;
@@ -13,6 +13,7 @@ const PostSelector = styled.div`
   }
   padding: 2em 4em;
   border-radius: 3px;
+  /* color: #383838; */
 `
 
 
@@ -29,7 +30,7 @@ export default class IndexPage extends React.Component {
     return (
       <Layout>
         <div className="content">
-          <p className="has-text-weight-bold is-size-2">Latest Journalings</p>
+          <span className="has-text-weight-bold is-size-2">Latest Journalings</span>
         </div>
         {posts
           .map(({ node: post }) => (
@@ -37,14 +38,14 @@ export default class IndexPage extends React.Component {
               <PostSelector
                 key={post.id}
               >
-                <p>
-                  <Link to={post.fields.slug}>
+                <p style={{paddingBottom: '1rem'}}>
+                  <Link to={post.fields.slug} style={{fontWeight: '500'}}>
                     {post.frontmatter.title}
                   </Link>
                   <span> &bull; </span>
                   <small>{post.frontmatter.date}</small>
                 </p>
-                <p>
+                <p style={{fontWeight: '300'}}>
                   {post.excerpt}
                 </p>
               </PostSelector>
