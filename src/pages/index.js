@@ -34,10 +34,8 @@ export default class IndexPage extends React.Component {
         </div>
         {posts
           .map(({ node: post }) => (
-            <StyledLink to={post.fields.slug}>
-              <PostSelector
-                key={post.id}
-              >
+            <StyledLink to={post.fields.slug} key={post.id}>
+              <PostSelector>
                 <p style={{paddingBottom: '1rem'}}>
                   <Link to={post.fields.slug} style={{fontWeight: '500'}}>
                     {post.frontmatter.title}
