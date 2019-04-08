@@ -23,7 +23,8 @@ const TemplateWrapper = class extends React.Component {
   }
 
   componentDidMount() {
-    this.setState({ lightMode: loadState('lightMode') });
+    console.log(loadState('lightMode'))
+    this.setState({ lightMode: loadState('lightMode') })
   }
 
   toggleLightMode() {
