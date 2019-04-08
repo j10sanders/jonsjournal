@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: The Fermi Paradox and what matters
-date: 2019-04-05T15:08:10.000Z
+date: 2019-04-08T15:08:10.000Z
 description:
 
 tags:
