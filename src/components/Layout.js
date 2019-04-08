@@ -12,6 +12,12 @@ const CenterDiv = styled.div`
   max-width: 60rem;
   padding:2.625rem 1.3125rem;
 `
+const DataDiv = styled.div`
+  width: 100%;
+  color: ${({lightMode}) => `${lightMode ? 'inherit' : 'rgba(255, 255, 255, 0.8)'}`};
+  background-color: ${({lightMode}) => `${lightMode ? '#ffffff' : '#212121'}`};
+  min-height: 100vh;
+`
 
 const TemplateWrapper = class extends React.Component {
   constructor() {
@@ -23,7 +29,7 @@ const TemplateWrapper = class extends React.Component {
   }
 
   componentDidMount() {
-    console.log(loadState('lightMode'))
+    console.log(loadState('lightMode'),"didMount")
     this.setState({ lightMode: loadState('lightMode') })
   }
 
@@ -48,14 +54,7 @@ const TemplateWrapper = class extends React.Component {
             }
         `}
         render={data => (
-          <div
-            style={{
-              width: '100%',
-              color: lightMode ? 'inherit' : 'rgba(255, 255, 255, 0.8)',
-              backgroundColor: lightMode ? '#ffffff' : '#212121',
-              minHeight: '100vh'
-            }}
-          >
+          <DataDiv lightMode={lightMode}>
             <Helmet>
               <html lang="en" />
               <title>{data.site.siteMetadata.title}</title>
@@ -75,7 +74,7 @@ const TemplateWrapper = class extends React.Component {
             </Helmet>
             <Navbar lightMode={lightMode} toggleLightMode={this.toggleLightMode} />
             <CenterDiv>{this.props.children}</CenterDiv>
-          </div>
+          </DataDiv>
         )}
       />
     )
