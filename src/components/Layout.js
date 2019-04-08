@@ -5,6 +5,7 @@ import Navbar from '../components/Navbar'
 import { loadState, saveState } from '../utils/helpers'
 import './all.sass'
 import styled from 'styled-components'
+import '../components/all.sass'
 
 const CenterDiv = styled.div`
   margin-left: auto;

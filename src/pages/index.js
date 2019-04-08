@@ -5,7 +5,6 @@ import Layout from '../components/Layout'
 import styled from 'styled-components'
 // import '../components/all.sass'
 
-
 const PostSelector = styled.div`
   border: 1px solid #EEEEEE;
   transition: box-shadow .5s;
