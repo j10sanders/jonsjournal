@@ -10,9 +10,7 @@ tags:
 ---
 Is there, or has there ever been, life on Mars?  Nope.  We can't find evidence of it with rovers, landers, or satellite imaging.  Sure, we haven't sampled that much soil, but keep in mind: it's nearly impossible to find a square foot of Earth's surface that isn't teeming with life.  As far I can tell, life is like glitter: where it exists, it gets everywhere.
 
-<br />
-<img src="/img/mars.jpg" title="It's dead."/>
-<br />
+![mars](/img/mars.jpg)
 
 But what about intelligent life, elsewhere in the universe?  It seems that with enough time, intelligent life might also be analogous to glitter: if we don't see evidence of intelligent life out there, then it's not there.  Wouldn't intelligent life have spread so much that it would be impossible to miss?
 

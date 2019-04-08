@@ -3,7 +3,7 @@ import React from 'react'
 export default ({color}) => (
 
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="512px" viewBox="0 0 512 512" style={{enableBackground: "new 0 0 512 512;"}} xmlSpace="preserve">
+	 width="512px" viewBox="0 0 512 512" style={{enableBackground: "new 0 0 512 512"}} xmlSpace="preserve">
 <g>
 	<path fill={color} d="M256,0C114.615,0,0,114.615,0,256s114.615,256,256,256s256-114.615,256-256S397.385,0,256,0z M403.121,180.544
 		c0.146,3.254,0.221,6.528,0.221,9.819c0,100.311-76.354,215.982-215.979,215.982c-42.868,0-82.768-12.568-116.363-34.106

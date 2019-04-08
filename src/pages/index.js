@@ -11,7 +11,7 @@ const PostSelector = styled.div`
   &:hover {
     box-shadow: 0px 2px 20px #B6B6B6, 0px 4px 6px #B6B6B6;
   }
-  padding: 2em 4em;
+  padding: 2em 3em;
   border-radius: 3px;
   /* color: #383838; */
 `
