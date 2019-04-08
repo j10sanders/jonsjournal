@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import styled from 'styled-components'
-import '../components/all.sass'
+// import '../components/all.sass'
 
 const PostSelector = styled.div`
   border: 1px solid #EEEEEE;
