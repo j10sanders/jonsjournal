@@ -3,7 +3,6 @@ import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from "gatsby"
 import Navbar from '../components/Navbar'
 import { loadState, saveState } from '../utils/helpers'
-import './all.sass'
 import styled from 'styled-components'
 
 const CenterDiv = styled.div`
