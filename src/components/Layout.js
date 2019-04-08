@@ -17,7 +17,7 @@ const TemplateWrapper = class extends React.Component {
   constructor() {
     super()
     this.state = {
-      lightMode: loadState('lightMode') === undefined || loadState('lightMode'),
+      lightMode: loadState('lightMode'),
     }
     this.toggleLightMode = this.toggleLightMode.bind(this)
   }
