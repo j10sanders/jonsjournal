@@ -41,8 +41,10 @@ const Navbar = class extends React.Component {
   }
 
   render() {
-    const color = this.props.lightMode ? '#212121' : '#ffffff';
-    const backgroundColor = this.props.lightMode ? '#ffffff' : '#212121';
+    // const color = this.props.lightMode ? '#212121' : '#ffffff';
+    // const backgroundColor = this.props.lightMode ? '#ffffff' : '#212121';
+    const backgroundColor = '#ffffff'
+    const color = '#212121'
     return (
       <nav style={{
         width: '100%',
@@ -56,7 +58,7 @@ const Navbar = class extends React.Component {
               </Logo>
             </Link>
             <div style={{ paddingTop: '15px' }}>
-              <Switch
+              {/* <Switch
                 id="lightMode"
                 onColor="#D3D3D3"
                 offColor="#303030"
@@ -66,7 +68,7 @@ const Navbar = class extends React.Component {
                 onChange={this.props.toggleLightMode}
                 activeBoxShadow={`0 0 2px 3px ${themeColor}`}
                 boxShadow={`0 0 2px 1px ${themeColor}`}
-              />
+              /> */}
             </div>
             {/* Hamburger menu */}
             <div className="navbar-burger burger" data-target="navMenu" style={{ color }}>

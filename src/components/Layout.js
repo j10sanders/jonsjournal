@@ -14,8 +14,8 @@ const CenterDiv = styled.div`
 `
 const DataDiv = styled.div`
   width: 100%;
-  color: ${({lightMode}) => `${lightMode ? 'inherit' : 'rgba(255, 255, 255, 0.8)'}`};
-  background-color: ${({lightMode}) => `${lightMode ? '#ffffff' : '#212121'}`};
+  /* color: ${({lightMode}) => `${lightMode ? 'inherit' : 'rgba(255, 255, 255, 0.8)'}`}; */
+  /* background-color: ${({lightMode}) => `${lightMode ? '#ffffff' : '#212121'}`}; */
   min-height: 100vh;
 `
 
