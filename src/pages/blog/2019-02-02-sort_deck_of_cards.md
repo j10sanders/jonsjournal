@@ -12,7 +12,7 @@ tags:
 ---
 
 
-While hanging out at RC last week, [Byung](http://byshiny.com/) asked me a question: "What is the fastest way to sort a deck of cards?  I thought this might be a trick question, because you aren't going to beat the beauty, simplicity, and speed of Mergesort, which sorts an array of *n* items in Θ(*n* log *n*) with a beautifully simple divide-and-conquer method.  And that's that -- you can't sort a randomly unsorted array any faster than *n* log *n*
+While hanging out at RC last week, [Byung](http://byshiny.com/) asked me a question: "What is the fastest way to sort a deck of cards?  I thought this might be a trick question, because you aren't going to beat the beauty, simplicity, and speed of Mergesort, which sorts an array of *n* items in Θ(*n* log *n*) with a beautifully simple divide-and-conquer method.  And that's that -- you can't sort a randomly unsorted array any faster than *n* log *n*.
 
 ![merge](/img/Merge-sort.gif)
 
