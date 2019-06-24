@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: That impractical wish
-date: 2019-06-08T15:08:10.000Z
+date: 2019-06-24T15:08:10.000Z
 description: You'd have to know me
 
 tags:
