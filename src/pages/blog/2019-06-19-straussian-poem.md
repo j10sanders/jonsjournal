@@ -17,16 +17,16 @@ Can you quote a poem in a poem?
 Lines 1-3 are [Matt's](https://inpatientpress.bigcartel.com/product/heroic-dose-by-matt-longabucco)  
 It's an absurd wish  
 But [Strauss's case is compelling](https://www.amazon.com/Philosophy-Between-Lines-History-Esoteric/dp/022617509X)  
-That they all did it:  
+That [they all did it:](https://www.press.uchicago.edu/sites/melzer/melzer_appendix.pdf)  
 Spinoza was an atheist  
-The Price was Machiavelli shitting on monarchy  
+*The Prince* was shitting on monarchy  
 Plato might be the worst offender  
 etc etc...  
 You have to know them, to know them  
 If you have to be told everything, do not read me [-- J.J Rousseau](https://books.google.com/books?id=0c9jBAAAQBAJ&lpg=PA220&ots=86aiqsRhpc&dq=%22if%20you%20have%20to%20be%20told%20everything%20do%20not%20read%20me%22%20rousseau&pg=PA220#v=onepage&q=%22if%20you%20have%20to%20be%20told%20everything%20do%20not%20read%20me%22%20rousseau&f=false)   
 What I cannot express, I point to with my finger.  
 But if you have a penetrating mind  
-These little tracks will serve the rest to find [--Montaigne](https://books.google.com/books?id=hlYPYVCBOhAC&lpg=PA181&ots=fHorMa04dW&dq=What%20I%20cannot%20express%2C%20I%20point%20to%20with%20my%20finger.%20But%20if%20you%20have%20a%20penetrating%20mind%2C%20These%20little%20tracks%20will%20serve%20the%20rest%20to%20find.%20montaigne&pg=PA181#v=onepage&q&f=false)  
+These little tracks will serve the rest to find [-- Montaigne](https://books.google.com/books?id=hlYPYVCBOhAC&lpg=PA181&ots=fHorMa04dW&dq=What%20I%20cannot%20express%2C%20I%20point%20to%20with%20my%20finger.%20But%20if%20you%20have%20a%20penetrating%20mind%2C%20These%20little%20tracks%20will%20serve%20the%20rest%20to%20find.%20montaigne&pg=PA181#v=onepage&q&f=false)  
 Does this happen today?  
 Or is nothing hidden anymore?  
 If an actor doesn't talk about equality  
@@ -42,8 +42,8 @@ On social issues, he's suspiciously quiet
 Because who would want to identify with the dark web  
 Where safe spaces are now treasured  
 The irony  
-But Clair(link) and Jordan guest on Conversations(link)  
-To paraphrase:  
+But [Clair](https://medium.com/conversations-with-tyler/claire-lehmann-tyler-cowen-political-correctness-social-norms-australian-culture-e52e2c08c629) and Jordan guest on [Conversations](https://conversationswithtyler.com/)  
+To paraphrase a Q for Jordan:  
 *Let’s say one is of the view that men and women are different  
 but one still recognizes discrimination against women...*   
 Ha ha, Tyler  
@@ -61,12 +61,11 @@ That impractical wish
 Where is the podcast  
 Where they start with a dose of LSD  
 Hop out of their narratives  
-And talk about millipedes  
+And watch a millipede  
 Where are we  
 That could be the name  
 Spotify exclusive  
-Which is supposed to be a [good thing](https://stratechery.com/2019/spotifys-podcast-aggregation-play/)  
-Just 8 libra a month  
-I'm parodying myself  
-It's fun  
-
+Apparently a [good thing](https://stratechery.com/2019/spotifys-podcast-aggregation-play/)  
+Just 10 libra a month  
+A parody of myself  
+Is the most fun to write
