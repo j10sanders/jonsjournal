@@ -38,7 +38,11 @@ The analogs are:
 
 ###The Baumol Effect:###
 The Baumol Effect is something I learned about on [The Not Unreasonable Podcast](https://www.stitcher.com/podcast/david-wright/the-not-unreasonable-podcast/e/62417129) where Alex Tabarrok discussed his book [Why Are the Prices So Damn High](https://www.mercatus.org/system/files/helland-tabarrok_why-are-the-prices-so-damn-high_v2.pdf).
-He talks about why prices for some things have been going up since, say, the 1950s, while the prices for most things have decreased.  So while home appliances and telecommunications have become much cheaper, prices for education and healthcare haven't stopped going up.  Bernie Sanders might attribute it to greedy millionaires and pharmaceutical companies, but the less villainous Baumol effect is probably the main driver here.  Alex gives an example to explain the Baumol Effect:
+He talks about why prices for some things have been going up since, say, the 1950s, while the prices for most things have decreased.  So while home appliances and telecommunications have become much cheaper, prices for education and healthcare haven't stopped going up.  Bernie Sanders might attribute it to greedy millionaires and pharmaceutical companies, but the less villainous Baumol effect is probably the main driver here.  
+
+![](/img/baumol.png)
+
+Alex gives an example to explain the Baumol Effect:
 
 > Take a Beethoven string quartet in 1826 - it takes 4 people 40 minutes to perform that string quartet.  Now do the same thing today...  It still takes 4 people 40 minutes to perform exactly the same string quartet.  So in nearly 200 years, there had been 0 improvement in productivity in string quartet land.  On the other hand, there are many, many, other sectors of the economy where productivity has increased tremendously. At producing goods... automobiles for example.  Or at producing major appliances, in all of the areas which have made life so much better compared with 1826.
 
@@ -50,7 +54,10 @@ I love this example.  The Baumol Effect makes it pretty clear that playing piano
 
 In contrast, software (and by extension, software development) is "eating the world".  Even since I've been a programmer, I've seen dramatic increases in the ease of creating, deploying, and scaling a web application (for example).
 
-But this analysis is flawed for a couple reasons.  First, just because other sectors are more productive doesn't mean that the wages of the less productive sector go down.  Actually, that sorta what the Baumol effect is explaining.  Although, if I care about GDP generally (which I do, but maybe not enough), then I guess I should pick hobbies that are increasing in productivity since the total output to others would be higher.  I will say that a nice keyboard that accuratly mimics the sound and feel of a full piano has gone down, and the Baumol effect supports this notion.
+But this analysis is flawed for a couple reasons.  First, just because other sectors are more productive doesn't mean that the wages of the less productive sector go down.  Actually, that sorta what the Baumol effect is explaining.  Although, if I care about GDP generally (which I do, but maybe not enough), then I guess I should pick hobbies that are increasing in productivity since the total output to others would be higher.  
+
+![I will say that a nice keyboard that accuratly mimics the sound and feel of a full piano has gone down, and the Baumol effect supports this notion.](/img/kawai.jpg)
+
 
 But more importantly, playing piano is a hobby, and it's enjoyable because... well, the experience of learning and playing music is enjoyable!  In the analogy to a Javascript engine running my code, the glaring difference is that v8 doesn't enjoy what it does.
 
