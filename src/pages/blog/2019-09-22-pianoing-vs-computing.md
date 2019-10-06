@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Piano-ing is different than Coding
-date: 2019-10-02T15:04:10.000Z
+date: 2019-10-06T15:04:10.000Z
 description: Considering if hobbies, like learning to play piano, are worth it (in light of the Baumol Effect)
 
 tags:
