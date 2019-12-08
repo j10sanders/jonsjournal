@@ -3,6 +3,7 @@
   "description": "The blog of Jonathan Sanders",
   "version": "1.9.5",
   "dependencies": {
+    "@weknow/gatsby-remark-twitter": "^0.2.3",
     "babel-plugin-styled-components": "^1.10.0",
     "bulma": "^0.7.0",
     "gatsby": "2.13.25",

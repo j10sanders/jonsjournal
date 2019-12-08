@@ -160,6 +160,12 @@ module.exports = {
       }
     },
     {
+      resolve: "gatsby-transformer-remark",
+      options: {
+        plugins: ["@weknow/gatsby-remark-twitter"]
+      }
+    },
+    {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`,
