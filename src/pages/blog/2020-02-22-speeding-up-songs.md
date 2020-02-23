@@ -10,9 +10,9 @@ tags:
 
 ---
 
-Like many people, I listen to podcasts sped up.  Anywhere from 1.5x - 2x speed, and it's great!  These days, people's voices don't sound like chipmunks when you speed up digital audio, because instead of merely playing the audio faster, the sample rate is reduced and the remaining audio is stitched together.  Think of it like pulling out tiny slices of audio and then pressing the remaining slices together - this is called the "sampling method," and it's used for all types of media content that have duration - (think podcasts and videos). Nice coverage of the topic from WaPo [here](https://www.washingtonpost.com/news/wonk/wp/2016/06/22/i-have-found-a-new-way-to-watch-tv-and-it-changes-everything/).
+Like many people, I listen to podcasts sped up.  Anywhere from 1.5x - 2x speed, and it's great.  I probably wouldn't listen to podcasts at all if I couldn't speed them up.  These days, people's voices don't sound like chipmunks when you speed up digital audio, because instead of merely playing the audio faster, the sample rate is reduced and the remaining audio is stitched together.  Think of it like pulling out tiny slices of audio and then pressing the remaining slices together - this is called the "sampling method," and it's used for all types of media content that have duration - (think podcasts and videos). Nice coverage of the topic from WaPo [here](https://www.washingtonpost.com/news/wonk/wp/2016/06/22/i-have-found-a-new-way-to-watch-tv-and-it-changes-everything/).
 
-But sometimes, it doesn't work so well.  If you watch a lot of videos sped up, you may notice that a lot of music sounds terrible, while speech almost always sounds natural.  Why?
+But sometimes, it doesn't work so well.  If you consume much sped-up media, you may notice that music often sounds terrible, while speech almost always sounds natural.  Why?
 
 To begin with, of course music is going to sound somewhat worse -- lower sample rates entail lower fidelity.  It's a general guideline to record audio of all types in 44100HZ - which means audio is sampled 23 times every .00050th of a second -- or 46,000 times in a second.  Which seems really high.  So even if you speed a 44100HZ video up 2x, you still get 23,000 samples per second.  It's still going to be recognizable with that much data, but it's longer going to be as high-def.
 
@@ -68,9 +68,9 @@ But there there is this... Hurt by neither vibrato nor similar sounds driving th
 <br />
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gvzC8MmC850" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-- I can't point out what sounds so bad about this one, but it's a sad song and it loses that feeling at a higher tempo.  The emotion is drained from it somehow... this makes me think that maybe I need to chill with the speed controller sometimes.  It's hard to define what makes a song sad, but this loses whatever that is.  I'm not sure how that translates to speech.
+- I can't point out what sounds so bad about this one, but it's a sad song and it loses that feeling at a higher tempo.  The emotion is drained from it somehow... this makes me think that maybe I need to chill with the speed controller sometimes.  It's hard to define what makes a song sad, but this loses whatever that is.  Maybe some emotions, such as sadness, are more fragile than others, and so get lost when the playback speed is adjusted?
 
 ------
 <br />
 
-If you have other theories or songs that don't fit these patterns and still sound like garbage, let me know.  And maybe more interesting, I found that vibrato gets ruined when it's sped up with the sampling technique, but can anyone explain why? Tweet me [@jonsjournals](https://twitter.com/jonsjournals).
+If you have other theories or songs that don't fit these patterns and still sound like garbage when you speed them up, let me know.  Also, I found that vibrato gets ruined when it's sped up with the sampling technique, but can anyone explain why?  Since the distance between two notes used in vibratto is essentially infinite, maybe we lose too many samples of the note changing, causing the 'buzzing' effect... something along those lines? Tweet me [@jonsjournals](https://twitter.com/jonsjournals).
